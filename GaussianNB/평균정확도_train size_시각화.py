@@ -44,4 +44,4 @@ def NV_BY_acc(case=200):
     plt.figure(figsize=(12,6))
     plt.plot(result['prob'], result['avr_acc'])
 
-NV_BY_acc(1000)
+NV_BY_acc()
